@@ -22,7 +22,7 @@ function compute()
         alert("Enter a positive number");
     } else {
 
-        document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"
+        document.getElementById("result").innerHTML="If you deposit <span class='hilighte_num'>"+principal+"</span>,\<br\>at an interest rate of <span class='hilighte_num'>"+rate+"%</span>\<br\>You will receive an amount of <span class='hilighte_num'>"+interest+"</span>,\<br\>in the year <span class='hilighte_num'>"+year+"</span>\<br\>"
     }   
 }
         
